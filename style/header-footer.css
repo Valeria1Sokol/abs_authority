@@ -1,0 +1,779 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #81b726;
+    transition: color .3s;
+}
+
+body {
+    overflow-x: hidden;
+    cursor: default;
+    font-family: 'Foco';
+}
+
+header {
+    width: 100vw;
+    background-color: #474746;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.53vw 2.56vw 1.56vw;
+}
+
+header .logo {
+    width: 19.6vw;
+    position: relative;
+    z-index: 10;
+}
+
+header .logo img {
+    max-width: 100%;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-menu .top-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-menu .top-menu-text {
+    margin: 0 0.27vw 0 0;
+    align-items: center;
+}
+
+
+.header-menu .top-menu-text li:nth-of-type(2) a {
+    border-left: 2px solid #7eb228;
+    border-right: 2px solid #7eb228;
+}
+
+.header-menu .top-menu-text a {
+    font-size: 0.73vw;
+    text-transform: uppercase;
+    padding: 0 0.9vw;
+    cursor: pointer;
+}
+
+.header-menu .top-menu-media {
+    align-items: center;
+}
+
+.header-menu .top-menu-media li {
+    padding: 0 0.37vw;
+    cursor: pointer;
+}
+
+.header-menu .face img {
+    width: 0.42vw;
+}
+
+.header-menu .twitt img {
+    width: 0.9vw;
+}
+
+.header-menu .insta img {
+    width: 0.83vw;
+
+}
+
+.header-menu .top-menu-media img {
+    max-width: 100%;
+}
+
+.header-menu .bottom-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 1.88vw;
+}
+
+.header-menu .bottom-menu-text {
+    width: 40.1vw;
+    justify-content: space-between;
+    margin: 0 3.23vw 0 0;
+}
+
+.header-menu .bottom-menu-text li {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-menu .bottom-menu-text a {
+    text-transform: uppercase;
+    font-size: 1.1vw;
+}
+
+.header-menu .bottom-menu-text li:last-of-type {
+    align-items: center;
+}
+
+.header-menu .bottom-menu-text nav {
+    width: 1.3vw;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header-menu .bottom-menu-text span {
+    width: 100%;
+    height: 2px;
+    background-color: #81b726;
+}
+
+.header-menu .bottom-menu-text img {
+    width: 1.17vw;
+    padding: 0vw 0 0.1vw 0.53vw;
+}
+
+.btn {
+    -webkit-transform: skewX(-18deg);
+    transform: skewX(-18deg);
+    cursor: pointer;
+}
+
+.header-menu .btn:hover {
+    background-color: rgba(130, 186, 38, 1);
+}
+
+.btn p {
+    -webkit-transform: skewX(18deg);
+    transform: skewX(18deg);
+}
+
+.header-menu .register {
+    background-color: rgba(130, 186, 38, 0.4);
+}
+
+.header-menu .register p {
+    color: white;
+    font-size: 0.73vw;
+    text-transform: uppercase;
+    padding: 0.73vw 3.55vw;
+}
+
+.header-menu .sing-up {
+    background-color: rgba(130, 186, 38, 0.68);
+    margin: 0 0 0 -0.4vw;
+}
+
+.header-menu .sing-up p {
+    color: white;
+    font-size: 0.73vw;
+    text-transform: uppercase;
+    padding: 0.73vw 3.55vw;
+}
+
+.redBtn {
+    background-color: #c62828;
+}
+
+.grayBtn {
+    background-color: #474746;
+}
+
+header .bottom-menu-text li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+header .subMenu {
+    position: absolute;
+    width: 140%;
+    top: 100%;
+    left: -20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #474746;
+    z-index: 100;
+    visibility: hidden;
+    transition: visibility .4s;
+    padding: 1vw 0;
+}
+
+header .bottom-menu-text .subMenu a {
+    padding: 1vw 1.5vw;
+    cursor: pointer;
+}
+
+header .bottom-menu-text .subMenu li:first-of-type a {
+    color: white;
+}
+
+header .bottom-menu-text .subMenu li a:hover {
+    color: #7eb228;
+}
+
+header .subOpen:hover .subMenu {
+    visibility: visible;
+}
+
+header .subOpen a:hover {
+    color: white;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #474746;
+    padding: 1.35vw 8.44vw 1.72vw 5.74vw;
+    background-position: 41% 58%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/footer-bg.png);
+}
+
+footer .footer-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .footer-top .logo {
+    width: 19.6vw;
+}
+
+footer .footer-top .logo img {
+    max-width: 100%;
+}
+
+footer .footer-top .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 21.5%;
+    margin-top: 1.05vw;
+}
+
+footer .footer-top .menu div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer .footer-top .menu a {
+    font-size: 1.1vw;
+    text-transform: uppercase;
+}
+
+footer .footer-top .menu a:hover,
+footer .footer-top .menu div:first-of-type a:first-of-type {
+    color: #82ba26;
+}
+
+footer .footer-top .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1.05vw;
+
+}
+
+footer .footer-top .contact h6 {
+    color: white;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    margin: 0 0 0.94vw;
+}
+
+footer .footer-top .contact p {
+    color: white;
+    font-size: 1.1vw;
+}
+
+footer .footer-top img {
+    margin: 0 1.05vw 0 0;
+}
+
+footer .footer-top .face img {
+    width: 0.63vw;
+}
+
+footer .footer-top .twitt img {
+    width: 1.36vw;
+    height: 1.15vw;
+}
+
+footer .footer-top .insta img {
+    width: 1.25vw;
+    margin: 0;
+}
+
+footer .footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-bottom p {
+    color: white;
+    font-size: 0.73vw;
+}
+
+.btn {
+    z-index: 1;
+    display: block;
+    top: calc(50% - 2.5rem - 5px);
+    left: calc(50% - 6rem - 5px);
+    transition: transform 0.25s;
+    text-align: center;
+    -webkit-transition: .01s .23s ease-out all;
+    transition: .01s .23s ease-out all;
+    overflow: hidden;
+}
+
+.btn::after {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s;
+    content: '';
+    position: absolute;
+    left: -5%;
+    top: 0%;
+    height: 100%;
+    width: 5%;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: -1;
+    -webkit-transition: .4s .02s ease-in all;
+    transition: .4s .02s ease-in all;
+}
+
+.btn:active {
+    transform: scale(0.96) skewX(-18deg);
+}
+
+.btn:active::before {
+    opacity: 1;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    opacity: 0;
+    pointer-events: none;
+    border-image-slice: 1;
+    z-index: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: .3s ease-in all;
+    transition: .3s ease-in all;
+}
+
+#menuToggle {
+    display: none;
+}
+
+
+
+@media all and (max-width:1024px) {
+
+    header {
+        padding: 1.53vw 2.56vw 2.56vw;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .header-menu .top-menu-text a {
+        font-size: 1.4vw;
+        padding: 0 1.3vw;
+    }
+
+    .header-menu .face img {
+        width: 1.5vw;
+        filter: brightness(0);
+    }
+
+    .header-menu .twitt img {
+        width: 2.5vw;
+        filter: brightness(0);
+    }
+
+    .header-menu .insta img {
+        width: 2.3vw;
+        filter: brightness(0);
+    }
+
+    .header-menu .bottom-menu,
+    .header-menu .top-menu-text,
+    .header-menu .top-menu-media {
+        display: none;
+    }
+
+    .nav-pills li {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0 0 1.5vw;
+    }
+
+    .nav-pills a {
+        font-size: 3vw;
+        text-transform: uppercase;
+        text-align: left;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .nav-pills img {
+        width: 2vw;
+        margin-left: 0.8vw;
+    }
+
+    nav {
+        width: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 2vw;
+        position: relative;
+        z-index: 100;
+    }
+
+    #menuToggle {
+        display: block;
+        position: relative;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    #menuToggle input {
+        display: block;
+        width: 5vw;
+        height: 4vw;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 1002;
+        -webkit-touch-callout: none;
+    }
+
+    /*
+ * Just a quick hamburger
+ */
+    #menuToggle span {
+        display: block;
+        width: 4vw;
+        height: 0.2vw;
+        margin-bottom: 0.7vw;
+        position: relative;
+        background: white;
+        border-radius: 3px;
+        z-index: 1001;
+        transform-origin: 0.4vw 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            opacity 0.55s ease;
+    }
+
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    /* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-0.5vw, -0.2vw);
+        background: #232323;
+    }
+
+    /*
+ * But let's hide the middle one.
+ */
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    /*
+ * Ohyeah and the last one should go the other direction
+ */
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        opacity: 1;
+        transform: rotate(-45deg) translate(-0.3vw, 0.1vw);
+    }
+
+    /*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+    #menu {
+        position: fixed;
+        overflow-y: scroll;
+        z-index: 1000;
+        width: 46vw;
+        height: 100vh;
+        color: black;
+        right: -10%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 3vw 0 10vw;
+
+        background: #ededed;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+
+        transform-origin: 0% 0%;
+        transform: translate(100%, 0);
+
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+
+    #menu li {
+        padding: 3vw 5vw;
+        border-bottom: 1px solid gray;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #menu li:nth-of-type(13),
+    #menu li:nth-of-type(14) {
+        border-bottom: none;
+    }
+
+    #menu li a {
+        font-size: 2.4vw;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    #menu li .arrImg {
+        width: 1.4vw;
+        margin: 0 0 0.1vw 1vw;
+    }
+
+    .header-menu .register p,
+    .header-menu .sing-up p {
+        font-size: 2.4vw;
+        padding: 1.3vw 6.55vw;
+    }
+
+    .header-menu .register,
+    .header-menu .sing-up {
+        width: 23vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*
+ * And let's fade it in from the left
+ */
+    #menuToggle input:checked ~ ul {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #menu {
+        transform: none;
+        opacity: 0;
+
+        transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+
+
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        opacity: 1;
+        transform: rotate(-45deg) translate(-0.2vw, 0.1vw);
+    }
+
+    footer .footer-top .menu a,
+    footer .footer-top .contact h6,
+    footer .footer-top .contact p {
+        font-size: 1.6vw;
+    }
+
+    footer .footer-top .menu {
+        width: 30.5%;
+    }
+
+    footer .footer-top .face img {
+        width: 1vw;
+    }
+
+    footer .footer-top .twitt img {
+        width: 1.9vw;
+        height: 1.6vw;
+    }
+
+    footer .footer-top .insta img {
+        width: 1.7vw;
+    }
+
+    footer .footer-bottom p {
+        color: white;
+        font-size: 1.3vw;
+    }
+}
+
+@media all and (max-width:800px) {
+    .nav__container {
+        top: 0%;
+    }
+
+    .nav-pills {
+        padding: 17vw 0 3vw;
+    }
+
+    .btn__toggle span {
+        width: 5.4vw;
+        height: 2px;
+    }
+
+    header .logo,
+    .top-menu {
+        position: relative;
+        z-index: 10;
+    }
+
+
+    header .logo {
+        width: 32.6vw;
+    }
+
+    .header-menu .top-menu-text a {
+        font-size: 2.2vw;
+    }
+
+    .header-menu .top-menu-text li:nth-of-type(2) a {
+        border-left: 1px solid #7eb228;
+        border-right: 1px solid #7eb228;
+    }
+
+    .header-menu .face img {
+        width: 1.7vw;
+    }
+
+    .header-menu .twitt img {
+        width: 3.2vw;
+    }
+
+    .header-menu .insta img {
+        width: 2.5vw;
+    }
+
+    .header-menu .register p,
+    .header-menu .sing-up p {
+        color: white;
+        font-size: 2.73vw;
+    }
+
+    footer .footer-top {
+        flex-wrap: wrap;
+    }
+
+    footer .footer-top .logo {
+        width: 33.6vw;
+    }
+
+    footer .footer-top .menu a,
+    footer .footer-top .contact h6,
+    footer .footer-top .contact p {
+        font-size: 2.6vw;
+    }
+
+    footer .footer-top .menu {
+        width: 51.5%;
+    }
+
+    footer .footer-top .contact {
+        margin-top: 5.05vw;
+    }
+
+    footer .footer-top .face img {
+        width: 2vw;
+    }
+
+    footer .footer-top .twitt img {
+        width: 3.9vw;
+        height: 3.2vw;
+
+    }
+
+    footer .footer-top .insta img {
+        width: 3.1vw;
+    }
+
+    footer .footer-bottom p {
+        color: white;
+        font-size: 2.3vw;
+        padding: 0 0 2vw;
+    }
+
+    footer .footer-bottom {
+        margin-top: 3vw;
+        flex-direction: column;
+    }
+
+    footer {
+        background-size: 64% 101%;
+    }
+}
+
+@media all and (max-width:425px) {
+
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        opacity: 1;
+        transform: rotate(-45deg) translate(-0.15vw, 0.1vw);
+    }
+}
+
+@media all and (max-width:375px) {}
+
+@media all and (max-width:320px) {}

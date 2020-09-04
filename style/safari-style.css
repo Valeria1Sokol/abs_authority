@@ -1,0 +1,19 @@
+.section3 .quote:first-of-type {
+    left: -3.3vw;
+    top: -2.5vw;
+}
+
+@media all and (max-width:425px) {
+    .section3 .quote:first-of-type {
+        left: -4.3vw;
+        top: -2.5vw;
+    }
+
+    .section3 .quote:last-of-type {
+        right: 6.5vw;
+        bottom: -3.8vw;
+    }
+    .section4 .blockRight h1 {
+font-size: 9vw;
+}
+}

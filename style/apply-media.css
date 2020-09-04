@@ -1,0 +1,330 @@
+@media all and (max-width:1024px) {
+
+    .nav-pills li:nth-of-type(1) a {
+        color: #81b726;
+    }
+
+    .section2 .box {
+        height: 41vw;
+    }
+}
+
+
+@media all and (max-width:800px) {
+    .nav-pills li:nth-of-type(1) a {
+        color: #81b726;
+    }
+
+    .section2 .category p {
+        font-size: 1.6vw;
+    }
+
+    .section2 .category {
+        width: 30%;
+        margin: 0 0 4.7vw;
+    }
+
+    .section2 .category .icon {
+        height: 6.2vw;
+    }
+
+    .section2 .grayBtn {
+        font-size: 1.2vw;
+    }
+
+    .section2 .box {
+        height: 46vw;
+    }
+
+    .section2 .step1Box h1,
+    .section2 .step2Box h1 {
+        font-size: 3vw;
+    }
+
+    .section2 .step1Box h2,
+    .section2 .step2Box h2 {
+        font-size: 2.6vw;
+    }
+
+    .section2 form div label {
+        font-size: 1.3vw;
+    }
+
+    .section2 form div input {
+        padding: 1.1vw 1.57vw;
+    }
+
+    .section2 form div input::placeholder {
+        font-size: 1vw;
+    }
+
+    .section2 .box {
+        height: 52vw;
+        width: 92%;
+    }
+
+    .section2 .all-category {
+        margin-top: 4.5vw;
+    }
+
+    .sectionSlider h1 {
+        font-size: 3vw;
+    }
+
+    .section5 h1 {
+        font-size: 3vw;
+    }
+
+    .section5 .benefits .icon {
+        height: 7.2vw;
+        width: 7.2vw;
+    }
+
+    .section5 .benefits p {
+        font-size: 1.6vw;
+    }
+
+
+    .section5 .benefits {
+        width: 33%;
+    }
+
+    .section4 h4 {
+        font-size: 2vw;
+    }
+
+    .section5 .all-benefits {
+        width: 94%;
+    }
+
+    .section5 {
+        padding: 4.3vw 14vw;
+    }
+
+    .sectionSlider .item .user {
+        width: 43.4%;
+        margin: 0 0.73vw 0 0;
+    }
+
+    .sectionSlider .item {
+        width: 27.2vw;
+    }
+
+    .sectionSlider .item .name {
+        font-size: 1.6vw;
+    }
+
+    .sectionSlider .item .pos {
+        font-size: 1.4vw;
+    }
+
+    .sectionSlider .owl-carousel {
+        width: 90%;
+        margin-top: 3.7vw;
+    }
+
+    .owl-nav {
+        width: 108%;
+        height: 4vw;
+        left: -4%;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 4vw;
+        height: 4vw;
+    }
+}
+
+@media all and (max-width:425px) {
+    .section1 {
+        height: auto;
+    }
+
+    .section1 h1 {
+        font-size: 8.8vw;
+    }
+
+    .section1 .text {
+        font-size: 3vw;
+    }
+
+    .section1 .redBtn {
+        font-size: 2.5vw;
+    }
+
+    .section1 .section1-content {
+        width: 75%;
+    }
+
+    .triangle-up {
+        width: 100%;
+        left: -12vw;
+    }
+
+    .section2 {
+        padding: 10vw 0;
+    }
+
+    .section2 .box {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .section2 .step1Box h1,
+    .section2 .step2Box h1 {
+        font-size: 5.2vw;
+    }
+
+    .section2 .step1Box h2,
+    .section2 .step2Box h2 {
+        font-size: 3.9vw;
+    }
+
+    .section2 .step1Box,
+    .section2 .step2Box {
+        width: 100%;
+        padding: 6.34vw 4.43vw 5.86vw
+    }
+
+    .section2 .all-category {
+        margin-top: 7.5vw;
+    }
+
+    .section2 .category .icon {
+        height: 8.2vw;
+        width: 8.2vw;
+    }
+
+    .section2 .category p {
+        font-size: 2.6vw;
+    }
+
+    .section2 .grayBtn {
+        font-size: 2.2vw;
+        padding: 1.83vw 7.4vw;
+    }
+
+    .section2 form {
+        margin: 5.77vw 0 0;
+    }
+
+    .section2 form div label {
+        font-size: 2.73vw;
+        margin: 0 0 1.7vw;
+    }
+
+    .section2 form div {
+        width: 100%;
+    }
+
+    .section2 form div input {
+        padding: 2.94vw 3.57vw;
+        margin: 0 0 3.83vw;
+    }
+
+
+    .section2 form div input::placeholder {
+        font-size: 2.2vw;
+        line-height: 3.6vw;
+    }
+
+    .section2 .redBtn {
+        font-size: 3.8vw;
+        margin: 6.85vw auto 0;
+    }
+
+    .section2 .redBtn p {
+        padding: 2.67vw 15vw;
+    }
+
+    .section5 h1 {
+        font-size: 5.2vw;
+        text-align: center;
+    }
+
+
+    .section5 {
+        padding: 13vw 3vw;
+        flex-wrap: wrap;
+    }
+
+    .section5 .benefits {
+        width: 51%;
+        margin: 0 0 6vw;
+    }
+
+    .section5 .benefits:last-of-type {
+        margin: 0;
+    }
+
+    .section5 .benefits .icon {
+        height: 17.2vw;
+        width: 16.2vw;
+    }
+
+    .section5 .benefits p {
+        font-size: 3vw;
+    }
+
+    .section5 .all-benefits {
+        margin-top: 8.3vw;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section4 h4 {
+        font-size: 3vw;
+    }
+
+    .section4 {
+        padding: 5.5vw;
+    }
+
+    .sectionSlider h1 {
+        font-size: 6.2vw;
+    }
+
+    .sectionSlider .item {
+        width: 65vw;
+        padding: 3.2vw 3vw 3.35vw;
+        margin: 0 auto;
+    }
+
+    .sectionSlider .item .name {
+        font-size: 3.6vw;
+    }
+
+    .sectionSlider .item .pos {
+        font-size: 3.4vw;
+    }
+
+    .sectionSlider .item .social img {
+        margin: 3.2vw 3.2vw 0 0;
+    }
+
+    .sectionSlider .item .user {
+        width: 41.4%;
+        margin: 0 3.73vw 0 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .owl-nav {
+        top: 35%;
+    }
+
+    .sectionSlider .owl-carousel {
+        width: 76%;
+    }
+
+    .owl-nav {
+        width: 127%;
+        height: 4vw;
+        left: -14%;
+    }
+}

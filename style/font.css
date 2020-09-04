@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Foco Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Foco Black'), url('../font/FOCOBLACK.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Foco';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Foco'), url('../font/FOCO.woff') format('woff');
+}
+@font-face {
+    font-family: 'Foco2';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Foco'), url('../font/Foco.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat'), url('../font/Montserrat-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat'), url('../font/Montserrat-ExtraBold.woff') format('woff');
+}

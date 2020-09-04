@@ -1,0 +1,721 @@
+@media all and (max-width:1024px) {
+    .section2 .block2 .img {
+        width: 54%;
+    }
+
+    .nav-pills li:nth-of-type(3) a {
+        color: #81b726;
+    }
+}
+
+@media all and (max-width:800px) {
+    .section2 br {
+        display: none;
+    }
+
+    .section2 .box .note {
+        font-size: 1.1vw;
+        height: 6.5vw;
+    }
+
+    .section2 .all-box {
+        padding: 3.13vw 4.77vw 4.2vw;
+    }
+
+    .section2 .box {
+        width: 31.8%;
+        padding: 2.87vw 2vw;
+    }
+
+    .section2 .btn p {
+        padding: 0.73vw 3vw;
+        font-size: 1.1vw;
+    }
+
+    .section2 .text-content h4 {
+        font-size: 3vw;
+    }
+
+    .section2 .text-content {
+        padding-left: 2.65vw;
+        width: 47%;
+    }
+
+    .section2 .block2 .img {
+        width: 55%;
+    }
+
+    .section2 .text-content .text {
+        font-size: 1.5vw;
+        width: 90%;
+    }
+
+    .section3 h1 {
+        font-size: 1.8vw;
+        width: 84%;
+    }
+
+    .section3 .block .img {
+        width: 52%;
+    }
+
+    .section3 .text-content {
+        width: 48%;
+    }
+
+    .section3 .text-content p {
+        font-size: 1.1vw;
+    }
+
+    .section4 {
+        padding: 10.2vw 0;
+    }
+
+    .section4 .content .title {
+        font-size: 1.25vw;
+        width: 69%;
+    }
+
+    .section4 .content .list-line .note {
+        font-size: 1.3vw;
+    }
+
+    .section4 .blockLeft {
+        width: 42%;
+    }
+
+    .section4 .content .list {
+        background-position: 0% 0%;
+    }
+
+    .section4 .content .list-line img {
+        width: 1.6vw;
+    }
+
+    .section4 .btn p {
+        padding: 0.7vw 2.7vw;
+        font-size: 1vw;
+    }
+
+    .section5 h1 {
+        font-size: 3vw;
+    }
+
+    .section5 .benefits .icon {
+        height: 7.2vw;
+        width: 7.2vw;
+    }
+
+    .section5 .benefits p {
+        font-size: 1.6vw;
+    }
+
+    .section5 {
+        padding: 6vw 4vw;
+    }
+
+    .section5 .benefits {
+        width: 25%;
+        height: 15vw;
+    }
+
+    .section3 .blockRight h6 {
+        font-size: 1.2vw;
+    }
+
+    .section3 .blockRight h1 {
+        font-size: 7.3vw;
+    }
+
+    .section3 .content .title {
+        font-size: 1.7vw;
+        width: 68%;
+    }
+
+    .section3 .content .list-line .note {
+        font-size: 1.9vw;
+    }
+
+    .section3 .content .list-line img {
+        margin: 0.5vw 1vw 0 0;
+    }
+
+    .section3 .btn p {
+        font-size: 1.3vw;
+    }
+
+    .section6 h1 {
+        font-size: 3vw;
+    }
+
+    .section6 .item .user {
+        width: 43.4%;
+        margin: 0 0.73vw 0 0;
+    }
+
+    .section6 .item {
+        width: 27.2vw;
+    }
+
+    .section6 .item .name {
+        font-size: 1.6vw;
+    }
+
+    .section6 .item .pos {
+        font-size: 1.4vw;
+    }
+
+    .section6 .owl-carousel {
+        width: 90%;
+        margin-top: 3.7vw;
+    }
+
+    .owl-nav {
+        width: 108%;
+        height: 4vw;
+        left: -4%;
+        top: 36%;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 4vw;
+        height: 4vw;
+    }
+
+
+    .section7 .item .text {
+        color: black;
+        font-size: 1.8vw;
+        margin: 1vw 0 0;
+        height: 8vw;
+    }
+
+    .section7 .item div h1 {
+        font-size: 6.8vw;
+    }
+
+    .section7 .item {
+        width: 30.3vw;
+        height: 40.3vw;
+        padding: 3vw 1vw;
+    }
+
+    .section7 .active {
+        height: 50.5vw;
+    }
+
+    .section7 .owl-carousel {
+        width: 96%;
+    }
+
+    .section7 .item div p {
+        font-size: 1.5vw;
+    }
+
+    .section7 h4 {
+        font-size: 2.1vw;
+    }
+
+    .section7 h1 {
+        font-size: 3vw;
+    }
+
+    .section7 .redBtn {
+        font-size: 1.6vw;
+    }
+
+    .section7 .item {
+        width: 39.3vw;
+        height: 47.3vw;
+        padding: 5vw 4vw;
+    }
+
+    .section7 .active,
+    .section7 .owl-item {
+        height: 50vw;
+        justify-content: center;
+    }
+
+    .section7 .sale {
+        width: 5.3vw;
+        width: 8vw;
+    }
+
+    .section7 .item h2 {
+        font-size: 3.4vw;
+    }
+
+    .section7 .item .text {
+        font-size: 2vw;
+        margin: 0;
+        height: 9vw;
+    }
+
+    .section7 .item div h1 {
+        font-size: 9.8vw;
+    }
+
+    .section7 .item div span {
+        font-size: 4.2vw;
+    }
+
+    .section7 .item div p {
+        font-size: 1.9vw;
+        padding: 0 0 0 1.42vw;
+        margin: 0 0 0 2vw;
+    }
+
+    .section7 .center .redBtn {
+        padding: 1.3vw 7vw;
+        font-size: 2.2vw;
+    }
+
+    .section7 .center,
+    .section7 .centerItem {
+        transform: scale(1);
+        z-index: 0;
+    }
+
+    .section7 .owl-nav {
+        width: 166%;
+        height: 10vw;
+        left: -34%;
+        z-index: 10;
+    }
+
+    .section7 .owl-carousel {
+        width: 58%;
+    }
+
+    .section7 .item div h1 {
+        color: #81b726
+    }
+
+    .section7 .redBtn {
+        padding: 1.3vw 9vw;
+        font-size: 2.7vw;
+    }
+
+    .section8 h1 {
+        font-size: 3vw;
+    }
+
+    .section8 .text {
+        width: 32%;
+    }
+
+    .section8 p {
+        font-size: 1.6vw;
+        width: 81%;
+    }
+
+    .section8 .redBtn p {
+        font-size: 1.6vw;
+    }
+
+    .section8 {
+        background-position: -5% 50%;
+    }
+
+    .nav-pills li:nth-of-type(3) a {
+        color: #81b726;
+    }
+}
+
+@media all and (max-width:425px) {
+    .section1 .redBtn p {
+        padding: 2.3vw 5.17vw;
+    }
+
+    .section2 {
+        padding: 0;
+    }
+
+    .section2 h1 {
+        font-size: 3.8vw;
+    }
+
+    .section2 .all-box {
+        flex-wrap: wrap;
+        padding: 7.13vw 4.77vw 8.2vw;
+        justify-content: center;
+    }
+
+    .section2 .box {
+        width: 66.8%;
+        padding: 4.87vw 4vw;
+        margin: 0 0 7vw;
+    }
+
+    .section2 .box .icon {
+        height: 10.2vw;
+        margin: 0 0 3.15vw;
+        width: 13vw;
+    }
+
+    .section2 .box h3 {
+        font-size: 5.18vw;
+    }
+
+    .section2 .box .note {
+        font-size: 2.4vw;
+        height: auto;
+        margin: 5.1vw 0;
+    }
+
+    .section2 .btn p {
+        padding: 1.73vw 4vw;
+        font-size: 2.6vw;
+    }
+
+    .section2 .grayBtn {
+        margin: 0 2.65vw 0 0;
+    }
+
+    .section2 .box:nth-of-type(2) .icon {
+        width: 9.65vw;
+    }
+
+    .section2 .box:nth-of-type(2) {
+        background-position: 130% -13%;
+        background-size: 62%;
+    }
+
+    .section2 .box .iconPlus {
+        height: 7.2vw;
+        margin: 0 0 3.15vw;
+    }
+
+    .section2 .block2 {
+        flex-direction: column;
+    }
+
+    .section2 .text-content {
+        padding: 0 9vw;
+        width: 100%;
+        align-items: center;
+    }
+
+    .section2 .text-content h4,
+    .section5 h1 {
+        font-size: 5.2vw;
+        text-align: center;
+    }
+
+    .section2 .text-content .text {
+        font-size: 3.6vw;
+        margin: 4vw 0 0;
+    }
+
+    .section2 .block2 .img {
+        width: 100%;
+        padding: 7vw 13vw 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-position: 48% 57%;
+        margin: 3vw 0 10vw;
+        background-size: 77%;
+    }
+
+    .section2 .block2 .img img {
+        width: 73%;
+        margin: 0 auto;
+    }
+
+    .section3 .block {
+        flex-direction: column-reverse;
+    }
+
+    .section3 .block .img {
+        width: 100%;
+        padding: 0 9vw 3vw;
+    }
+
+    .section3 .block .img img {
+        width: 100%;
+    }
+
+    .section3 .text-content {
+        width: 100%;
+        padding: 6vw 9vw 0;
+    }
+
+    .section3 h1 {
+        font-size: 4.2vw;
+        margin: 0 0 6vw;
+    }
+
+    .section3 h1:last-of-type {
+        width: 68%;
+    }
+
+    .section3 .quote {
+        font-size: 13.5vw;
+    }
+
+    .section3 .quote:first-of-type {
+        left: 4.3vw;
+        top: -3.5vw;
+    }
+
+    .section3 .quote:last-of-type {
+        right: 9.5vw;
+        bottom: -3.8vw;
+    }
+
+    .section3 .text-content p {
+        font-size: 3vw;
+    }
+
+    .section5 {
+        padding: 10vw 7vw;
+        flex-wrap: wrap;
+    }
+
+    .section5 .benefits {
+        width: 50%;
+        height: 30vw;
+    }
+
+    .section5 .benefits .icon {
+        height: 17.2vw;
+        width: 16.2vw;
+    }
+
+    .section5 .benefits p {
+        font-size: 3.6vw;
+    }
+
+    .section5 .all-benefits {
+        margin-top: 8.3vw;
+    }
+
+
+    .section4 .blockLeft {
+        padding: 0.8vw 5vw 9vw 3.1vw;
+        width: 86%;
+        margin: 0 0 5vw;
+    }
+
+    .section4 .blockLeft p {
+        font-size: 5.2vw;
+        padding: 0.8vw 9vw 11.4vw 10.84vw
+    }
+
+    .section4 {
+        padding: 8.65vw 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4 .blockRight h6 {
+        font-size: 3vw;
+    }
+
+    .section4 .blockRight h1 {
+        font-size: 5.2vw;
+    }
+
+    .section4 .content .title {
+        font-size: 3.6vw;
+        width: 100%;
+    }
+
+    .section4 .blockRight {
+        padding: 0 10vw;
+        margin: 0;
+    }
+
+    .section4 .content .list-line .note {
+        font-size: 3.6vw;
+    }
+
+    .section4 .content .list-line {
+        margin: 0 0 3.5vw;
+    }
+
+    .section4 .content .list-line img {
+        width: 3.1vw;
+        margin: 1vw 2vw 0 0;
+    }
+
+    .section4 .btn p {
+        font-size: 2.5vw;
+        padding: 2.05vw 6.37vw;
+    }
+
+    .section4 .grayBtn {
+        margin: 0 3.65vw 0 0;
+    }
+
+    .section4 .content .list {
+        padding: 3.4vw 2.4vw 7.1vw;
+    }
+
+    .section6 {
+        padding: 11.5vw 0 16.2vw;
+    }
+
+    .section6 h1 {
+        font-size: 9.2vw;
+    }
+
+    .section6 .item {
+        width: 65vw;
+        padding: 3.2vw 3vw 3.35vw;
+        margin: 0 auto;
+    }
+
+    .section6 .item .name {
+        font-size: 3.6vw;
+    }
+
+    .section6 .item .pos {
+        font-size: 3.4vw;
+    }
+
+    .section6 .item .social img {
+        margin: 3.2vw 3.2vw 0 0;
+    }
+
+    .section6 .item .user {
+        width: 41.4%;
+        margin: 0 3.73vw 0 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .owl-nav {
+        top: 35%;
+    }
+
+    .section6 .owl-carousel {
+        width: 76%;
+    }
+
+    .owl-nav {
+        width: 127%;
+        height: 4vw;
+        left: -14%;
+    }
+
+    .section7 h4 {
+        font-size: 5vw;
+    }
+
+    .section7 h1 {
+        font-size: 8vw;
+    }
+
+    .section7 .item {
+        width: 49.3vw;
+        height: 59.3vw;
+        padding: 5vw 2vw;
+    }
+
+    .section7 .active,
+    .section7 .owl-item {
+        height: 67.5vw;
+        justify-content: center;
+    }
+
+    .section7 .sale {
+        width: 5.3vw;
+        width: 8vw;
+    }
+
+    .section7 .item h2 {
+        font-size: 5.6vw;
+    }
+
+    .section7 .item .text {
+        font-size: 2.8vw;
+        margin: 0;
+        height: 15vw;
+    }
+
+    .section7 .item div h1 {
+        font-size: 11.8vw;
+    }
+
+    .section7 .item div span {
+        font-size: 5.2vw;
+    }
+
+    .section7 .item div p {
+        font-size: 2.5vw;
+        padding: 0 0 0 1.42vw;
+        margin: 0 0 0 2vw;
+    }
+
+    .section7 .center .redBtn {
+        padding: 1.3vw 9vw;
+        font-size: 2.7vw;
+    }
+
+    .section7 .center {
+        transform: scale(1);
+        z-index: 0;
+    }
+
+    .section7 .owl-nav {
+        width: 166%;
+        height: 10vw;
+        left: -34%;
+        z-index: 10;
+    }
+
+    .section7 .owl-carousel {
+        width: 58%;
+    }
+
+    .section7 .item div h1 {
+        color: #81b726
+    }
+
+    .section7 .redBtn {
+        padding: 1.3vw 9vw;
+        font-size: 2.7vw;
+    }
+
+    .section8 h1 {
+        font-size: 5.2vw;
+    }
+
+    .section8 p {
+        font-size: 3.2vw;
+        width: 95%;
+    }
+
+    .section8 .redBtn p {
+        font-size: 2.6vw;
+    }
+
+    .section8 .text {
+        width: 42%;
+    }
+
+    .section8 .redBtn {
+        padding: 1.85vw 10vw;
+    }
+
+    .section8 .img img {
+        width: 100%;
+    }
+
+    .section8 .img {
+        width: 56%;
+    }
+
+    .section8 {
+        background-position: -120% 50%;
+        background-size: 107% 100%;
+    }
+}

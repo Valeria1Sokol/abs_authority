@@ -1,0 +1,672 @@
+@media all and (max-width:1024px) {
+    .nav-pills li:nth-of-type(2) a {
+        color: #81b726;
+    }
+}
+
+@media all and (max-width:800px) {
+    .section2 br {
+        display: none;
+    }
+
+    .section2 .box .note {
+        font-size: 1.1vw;
+        height: 6.5vw;
+    }
+
+    .section2 .all-box {
+        padding: 3.13vw 4.77vw 4.2vw;
+    }
+
+    .section2 .box {
+        width: 31.8%;
+        padding: 2.87vw 2vw;
+    }
+
+    .section2 .btn p {
+        padding: 1vw 4vw;
+        font-size: 1.1vw;
+    }
+
+    .section2 .text-content h4 {
+        font-size: 3vw;
+    }
+
+
+    .section2 .block2 .img {
+        width: 52%;
+    }
+
+    .section2 .redBtn {
+        padding: 0;
+    }
+
+    .section2 .text-content .text {
+        font-size: 1.5vw;
+    }
+
+    .section3 h1 {
+        font-size: 3vw;
+    }
+
+    .section3 .benefits .icon {
+        height: 7.2vw;
+        width: 7.2vw;
+    }
+
+    .section3 .benefits p {
+        font-size: 1.6vw;
+    }
+
+    .section3 {
+        padding: 5vw 8vw;
+    }
+
+    .section3 .benefits {
+        width: 32%;
+        height: 14vw;
+    }
+
+    .section3 .all-benefits {
+        width: 87%;
+    }
+
+
+    .section4 br {
+        display: none;
+    }
+
+    .section4 .box .note {
+        font-size: 1.1vw;
+        height: 5.5vw;
+    }
+
+    .section4 .all-box {
+        padding: 3.13vw 4.77vw 5vw;
+    }
+
+    .section4 .box {
+        width: 30.8%;
+        padding: 2.87vw 2vw;
+    }
+
+    .section4 .btn p {
+        padding: 0.73vw 3vw;
+        font-size: 1vw;
+    }
+
+    .section4 .box h3 {
+        font-size: 2.7vw;
+    }
+
+    .section4 {
+        padding: 5vw 0 0;
+    }
+
+    .section4 h1 {
+        font-size: 3vw;
+    }
+
+    .section5 {
+        padding: 6vw 0;
+        margin: 0 0 3vw;
+    }
+
+    .section5 h1 {
+        font-size: 3vw;
+        margin: 0 0 5.1vw;
+    }
+
+    .section5 p {
+        width: 53%;
+        line-height: 3vw;
+        font-size: 2vw;
+    }
+
+    .section5 img {
+        margin: 0 2.4vw 0 0;
+        width: 18vw;
+    }
+
+    .section6 .btn p {
+        font-size: 1.2vw;
+    }
+
+    .section6 .text-content h4 {
+        font-size: 3vw;
+    }
+
+    .section6 .text-content {
+        padding-left: 0;
+    }
+
+    .section6 .text-content br {
+        display: none;
+    }
+
+    .section6 .block .img {
+        width: 44%;
+    }
+
+    .section6 .text-content {
+        width: 45%;
+    }
+
+    .section6 .text-content .text {
+        font-size: 1.5vw;
+        width: 84%;
+    }
+
+    .section6 .block:first-of-type .img {
+        width: 48%;
+    }
+
+    .section6 .block:first-of-type .text-content {
+        width: 57%;
+    }
+
+    .section6 .block:first-of-type .img img {
+        width: 100%;
+    }
+
+    .section6 {
+        padding: 4vw 0 12.7vw 4.7vw;
+    }
+
+    .section7 .blockRight h1 {
+        font-size: 3vw;
+    }
+
+    .section7 .title {
+        font-size: 1.5vw;
+    }
+
+    .section7 .blockLeft {
+        background-size: 100%;
+        background-position: 0% 13%;
+        width: 43%;
+        padding: 4.7vw 5vw 13.6vw 16vw;
+    }
+
+    .section7 .blockLeft p {
+        width: 100%;
+        font-size: 2.3vw;
+        font-family: 'Foco Black';
+        text-align: center;
+        color: white;
+        margin: 0 0 3.2vw;
+    }
+
+    .section7 .btn p {
+        padding: 1.3vw 4.14vw;
+        font-size: 1vw;
+        margin: 0;
+    }
+
+    .sectionSlider .item .user {
+        width: 43.4%;
+        margin: 0 0.73vw 0 0;
+    }
+
+    .sectionSlider .item {
+        width: 27.2vw;
+    }
+
+    .sectionSlider .item .name {
+        font-size: 1.6vw;
+    }
+
+    .sectionSlider .item .pos {
+        font-size: 1.4vw;
+    }
+
+    .sectionSlider .owl-carousel {
+        width: 90%;
+        margin-top: 3.7vw;
+    }
+
+    .sectionSlider h1 {
+        font-size: 3vw;
+    }
+
+    .owl-nav {
+        width: 108%;
+        height: 4vw;
+        left: -4%;
+        top: 36%;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .section9 h1 {
+        font-size: 3vw;
+        width: 58%;
+    }
+
+    .section9 .text {
+        width: 65%;
+    }
+
+    .section9 {
+        background-position: -96% 50%;
+    }
+
+    .section9 img {
+        width: 67%;
+        margin-top: 2.4vw;
+    }
+}
+
+@media all and (max-width:425px) {
+    .section1 {
+        height: auto;
+        background-position: 59% 73%;
+    }
+
+    .section1 h1 {
+        font-size: 8.8vw;
+    }
+
+    .section1 .text {
+        font-size: 3vw;
+    }
+
+    .section1 .redBtn {
+        font-size: 2.5vw;
+    }
+
+    .section1 .redBtn p {
+        padding: 2.3vw 4.3vw;
+
+    }
+
+    .section1 .section1-content {
+        width: 75%;
+    }
+
+    .triangle-up {
+        width: 100%;
+        left: -12vw;
+    }
+
+    .section2 {
+        padding: 0;
+    }
+
+    .section2 h1 {
+        font-size: 3.8vw;
+    }
+
+    .section2 .btn p {
+        padding: 2.3vw 4.17vw;
+        ;
+        font-size: 2.5vw;
+    }
+
+    .section2 .block2 {
+        flex-direction: column;
+    }
+
+    .section2 .text-content {
+        padding: 0 5vw;
+        width: 100%;
+        align-items: center;
+    }
+
+    .section2 .text-content h4 {
+        font-size: 5.2vw;
+        text-align: center;
+    }
+
+    .section2 .text-content .text {
+        font-size: 3.6vw;
+        margin: 4vw 0 0;
+        padding: 0 5vw 0 7vw;
+        width: 100%;
+    }
+
+    .section2 .redBtn {
+        padding: 0;
+        margin-top: 7.6vw;
+        margin-bottom: 9.4vw;
+    }
+
+    .section2 .block2 .img {
+        width: 100%;
+        padding: 5vw 10vw 0vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-position: 95% 61%;
+        margin: 3vw 0 10vw;
+    }
+
+    .section2 .block2 .img img {
+        width: 79%;
+        margin: 0 auto;
+    }
+
+    .section3 {
+        padding: 7vw 2vw;
+        flex-wrap: wrap;
+    }
+
+    .section3 h1 {
+        width: 95%;
+        font-size: 5.2vw;
+        text-align: center;
+    }
+
+    .section3 .benefits {
+        width: 51%;
+        height: 30vw;
+        margin: 0 0 4vw;
+    }
+
+    .section3 .benefits:last-of-type {
+        margin: 0vw;
+    }
+
+    .section3 .benefits .icon {
+        height: 17.2vw;
+        width: 16.2vw;
+    }
+
+    .section3 .benefits p {
+        font-size: 3.6vw;
+    }
+
+    .section3 .all-benefits {
+        margin-top: 8.3vw;
+        justify-content: center;
+    }
+
+    .section4 {
+        padding: 7vw 0 0;
+    }
+
+    .section4 h1 {
+        font-size: 5.2vw;
+    }
+
+    .section4 .all-box {
+        flex-wrap: wrap;
+        padding: 7.13vw 4.77vw 8.2vw;
+        justify-content: center;
+    }
+
+    .section4 .box {
+        width: 67.8%;
+        padding: 4.87vw 4vw;
+        margin: 0 0 7vw;
+    }
+
+    .section4 .box:first-of-type {
+        margin: 0 0 7vw;
+    }
+
+    .section4 .box .icon {
+        height: 10.2vw;
+        width: 13vw;
+    }
+
+    .section4 .box h3 {
+        font-size: 5.18vw;
+    }
+
+    .section4 .box .note {
+        font-size: 2.4vw;
+        height: auto;
+        margin: 5.1vw 0;
+    }
+
+    .section4 .btn p {
+        padding: 1.73vw 4vw;
+        font-size: 2vw;
+    }
+
+    .section4 .grayBtn {
+        margin: 0 2.65vw 0 0;
+    }
+
+    .section4 .box:nth-of-type(2) .icon {
+        width: 9.65vw;
+    }
+
+    .section4 .box:nth-of-type(2) {
+        background-position: 130% -13%;
+        background-size: 62%;
+    }
+
+    .section4 .box .iconPlus {
+        height: 7.2vw;
+        margin: 0 0 3.15vw;
+    }
+
+    .section5 h1 {
+        font-size: 5vw;
+        text-align: center;
+        width: 75%;
+    }
+
+    .section5 .content {
+        flex-direction: column;
+    }
+
+    .section5 img {
+        margin: 0 0vw 5vw 0;
+        width: 30vw;
+    }
+
+    .section5 {
+        padding: 8vw 6vw 6vw;
+        margin: 0 0 7vw;
+    }
+
+    .section5 p {
+        width: 100%;
+        line-height: 4.3vw;
+        font-size: 3vw;
+    }
+
+    .section6 .block:first-of-type .img img {
+        width: 74%;
+    }
+
+    .section6 {
+        padding: 0;
+    }
+
+    .section6 h1 {
+        font-size: 3.8vw;
+    }
+
+    .section6 .btn p {
+        font-size: 2.5vw;
+        padding: 2.3vw 6.17vw;
+    }
+
+
+    .section6 .block {
+        flex-direction: column;
+    }
+
+    .section6 .text-content {
+        padding: 0 5vw;
+        width: 100%;
+        align-items: center;
+    }
+
+    .section6 .text-content h4 {
+        font-size: 5.2vw;
+        text-align: center;
+    }
+
+    .section6 .text-content .text {
+        font-size: 3.6vw;
+        margin: 4vw 0 0;
+        padding: 0;
+        width: 87%;
+    }
+
+    .section6 .redBtn {
+        padding: 0;
+        margin-top: 3.6vw;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .section6 .block .img,
+    .section6 .block:first-of-type .img {
+        width: 100%;
+        padding: 4vw 10vw 3vw;
+        background-size: 82%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-position: 72% 61%;
+        margin: 0vw;
+    }
+
+    .section6 .block:first-of-type {
+        flex-direction: column;
+        margin: 0 0 4.2vw;
+    }
+
+    .section6 .block:first-of-type .text-content {
+        width: 100%;
+        margin: 3vw 0 0;
+    }
+
+    .section6 .block .img img {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+
+    .section7 .blockLeft {
+        padding: 7.8vw 0vw 28vw 20.1vw;
+        width: 73%;
+        margin: 0 0 8vw;
+        background-size: 100%;
+        background-position: 0% 0%;
+    }
+
+    .section7 .blockLeft p {
+        font-size: 5.2vw;
+    }
+
+    .section7 {
+        padding: 15.65vw 0 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section7 .blockRight h6 {
+        font-size: 3vw;
+    }
+
+    .section7 .blockRight h1 {
+        font-size: 5.2vw;
+    }
+
+    .section7 .content .title {
+        font-size: 3.6vw;
+        width: 100%;
+    }
+
+    .section7 .blockRight {
+        padding: 0 10vw;
+        margin: 0;
+        width: 100%;
+    }
+
+    .section7 .btn p {
+        font-size: 2.5vw;
+        padding: 2.3vw 6.17vw;
+    }
+
+    .section7 .title {
+        font-size: 3.3vw;
+        width: 100%;
+    }
+
+
+    .sectionSlider {
+        padding: 11.5vw 0 16.2vw;
+    }
+
+    .sectionSlider h1 {
+        font-size: 9.2vw;
+    }
+
+    .sectionSlider .item {
+        width: 65vw;
+        padding: 3.2vw 3vw 3.35vw;
+        margin: 0 auto;
+    }
+
+    .sectionSlider .item .name {
+        font-size: 3.6vw;
+    }
+
+    .sectionSlider .item .pos {
+        font-size: 3.4vw;
+    }
+
+    .sectionSlider .item .social img {
+        margin: 3.2vw 3.2vw 0 0;
+    }
+
+    .sectionSlider .item .user {
+        width: 41.4%;
+        margin: 0 3.73vw 0 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .owl-nav {
+        top: 35%;
+    }
+
+    .sectionSlider .owl-carousel {
+        width: 76%;
+    }
+
+    .owl-nav {
+        width: 127%;
+        height: 4vw;
+        left: -14%;
+    }
+
+    .section9 h1 {
+        font-size: 5.2vw;
+        width: 42%;
+        margin: 0 5vw 0 0;
+    }
+
+    .section9 .text {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .section9 img {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .section9 {
+        background-position: -120% 50%;
+        background-size: 107% 100%;
+    }
+}

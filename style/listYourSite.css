@@ -1,0 +1,515 @@
+.header-menu .top-menu-text li:nth-of-type(2) a {
+    color: #81b726;
+}
+
+.section1 {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/list-your-site-bg.png);
+}
+
+
+.section2 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section2 .box {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    background-color: white;
+    padding: 4vw 6vw 1.92vw;
+}
+
+.section2 .box .text {
+    color: #72787a;
+    font-size: 1.2vw;
+}
+
+.section2 .title {
+    color: #81b726;
+    font-size: 2vw;
+    font-family: 'Foco Black';
+    text-align: left;
+}
+
+.section2 .box .title {
+    margin: 4.28vw 0 1.83vw;
+}
+
+.section2 .list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section2 .list-line {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 1.5vw;
+}
+
+.section2 .list-line .note {
+    font-size: 1.15vw;
+    color: #474746;
+    text-align: left;
+}
+
+.section2 .list-line img {
+    margin: 0 1vw 0 0;
+    width: 1.4vw;
+}
+
+.section2 .contactBlock {
+    width: 55%;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 4vw 5.54vw 3.4vw;
+}
+
+.section2 .contactBlock .title {
+    margin: 0 0 1.83vw;
+}
+
+.section2 .contactBlock form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2 form div {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section2 form div label {
+    color: #474746;
+    font-size: 0.73vw;
+    margin: 0 0 0.7vw;
+    letter-spacing: 0.12vw;
+    text-transform: uppercase;
+    font-family: 'Foco Black';
+}
+
+.section2 form div input,
+.select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 0.94vw 1.57vw;
+    margin: 0 0 1.83vw;
+}
+
+.select {
+    /* reset */
+
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../img/select.png);
+    background-position: 93% center;
+    background-repeat: no-repeat;
+    background-size: 3%;
+}
+
+.section2 form div input::placeholder {
+    text-transform: uppercase;
+    font-size: 0.7vw;
+    letter-spacing: 1.5px;
+    color: #999999;
+}
+
+
+.section2 .redBtn {
+    font-size: 0.73vw;
+    font-family: 'foco';
+    margin-top: 0.79vw;
+    margin-left: 1.1vw;
+}
+
+.section2 .redBtn:hover {
+    color: white;
+}
+
+.section2 .redBtn p {
+    padding: 0.73vw 3.3vw;
+}
+
+.section3 {
+    width: 100vw;
+    background-color: white;
+    padding: 4.4vw 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section3 .blockLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-position: 93% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/black-samsung-tablet.png);
+    width: 42%;
+    padding: 21vw 0;
+}
+
+.section3 .blockRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section3 .blockRight h1 {
+    font-size: 2.6vw;
+    color: #81b726;
+    font-family: 'Foco Black';
+    text-align: left;
+    margin: 0 0 3.34vw;
+}
+
+.section3 .blockRight .content {
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section3 .content .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-position: 112% -74%;
+    background-repeat: no-repeat;
+    background-size: 126%;
+    background-image: url(../img/list-bg.png);
+    padding: 1.3vw 2.5vw 0 3.75vw;
+    margin-left: 5.2vw;
+}
+
+.section3 .content .list-line {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 1.5vw;
+}
+
+.section3 .content .list-line .note {
+    font-size: 1.1vw;
+    color: #81b726;
+    text-align: left;
+}
+
+.section3 .content .list-line img {
+    margin: 0 1vw 0 0;
+    width: 1.4vw;
+}
+
+footer .footer-top .menu div:nth-of-type(2) a:nth-of-type(2) {
+    color: #82ba26;
+}
+
+footer .footer-top .menu div:first-of-type a:first-of-type {
+    color: white;
+}
+
+@media all and (max-width:800px) {
+
+    .section1 .redBtn {
+        font-size: 1.5vw;
+    }
+
+    .section2 {
+        flex-direction: column;
+    }
+
+    .section2 .box {
+        padding: 6vw 7.13vw 4.92vw;
+        width: 100%;
+    }
+
+    .section2 .box .text {
+        font-size: 2.4vw;
+    }
+
+    .section2 .list-line .note {
+        font-size: 2.3vw;
+    }
+
+    .section2 .title {
+        font-size: 3vw;
+    }
+
+    .section2 .list-line {
+        margin: 0 0 2.5vw;
+    }
+
+    .section2 .list-line img {
+        margin: 0.8vw 1vw 0 0;
+        width: 2vw;
+    }
+
+    .section2 .contactBlock {
+        width: 100%;
+        padding: 8vw 7.13vw 8.4vw;
+    }
+
+    .section2 .contactBlock .title {
+        margin: 0 0 4.83vw;
+    }
+
+    .section2 .redBtn p {
+        padding: 0.73vw 4.3vw;
+        font-size: 2vw;
+    }
+
+    .section2 form div label {
+        font-size: 1.73vw;
+        margin: 0 0 1.7vw;
+        letter-spacing: 2px;
+    }
+
+    .section2 form div input,
+    .section2 form div select {
+        padding: 1.94vw 2.57vw;
+        margin: 0 0 2.83vw;
+    }
+
+    .section2 form div input::placeholder {
+        font-size: 1.2vw;
+    }
+
+    .section2 .redBtn {
+        font-size: 2.3vw;
+        margin-left: 1.7vw;
+    }
+
+    .section3 {
+        flex-direction: column;
+        padding: 11.4vw 0 5vw;
+    }
+
+    .section3 .blockLeft {
+        margin: 0 auto;
+        width: 60%;
+        padding: 29.8vw 0;
+    }
+
+    .section3 .blockRight h1 {
+        font-size: 4vw;
+    }
+
+    .section3 .blockRight {
+        margin: 6vw auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section3 .content .list {
+        padding: 1.3vw 2.5vw 0 3.75vw;
+        margin-left: 0;
+        width: 74%;
+    }
+
+    .section3 .content .list br {
+        display: none;
+    }
+
+    .section3 .blockRight .content {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section3 .content .title {
+        font-size: 1.7vw;
+        width: 68%;
+    }
+
+    .section3 .content .list-line .note {
+        font-size: 2.5vw;
+    }
+
+    .section3 .content .list-line img {
+        margin: 0 1vw 0 0;
+        width: 3.1vw;
+    }
+
+    .section3 .content .list-line img {
+        margin: 0.5vw 2vw 0 0;
+    }
+
+
+    .section3 .btn p {
+        font-size: 1.3vw;
+    }
+}
+
+@media all and (max-width:425px) {
+    .section1 {
+        height: auto;
+    }
+
+    .section1 h1 {
+        font-size: 8.8vw;
+    }
+
+    .section1 .text {
+        font-size: 3vw;
+    }
+
+    .section1 .redBtn {
+        font-size: 2.5vw;
+    }
+
+    .section1 .section1-content {
+        width: 93%;
+    }
+
+    .section1 .redBtn p {
+        padding: 2.3vw 10.3vw;
+    }
+
+    .triangle-up {
+        width: 100%;
+        left: -4vw;
+    }
+
+    .section2 .box .text {
+        font-size: 3.6vw;
+    }
+
+    .section2 .title {
+        font-size: 5.2vw;
+    }
+
+    .section2 .list-line .note {
+        font-size: 3.56vw;
+    }
+
+    .section2 .list-line img {
+        margin: 0.8vw 2vw 0 0;
+        width: 3.7vw;
+    }
+
+    .section2 form div label {
+        font-size: 2.73vw;
+        margin: 0 0 1.7vw;
+    }
+
+    .section2 form div {
+        width: 100%;
+        margin-left: 1.63vw;
+    }
+
+    .section2 form div input,
+    .section2 form div select {
+        padding: 2.94vw 3.57vw;
+        margin: 0 0 3.83vw;
+    }
+
+    .select {
+        background-size: 2%;
+    }
+
+    .section2 form div input::placeholder {
+        font-size: 2vw;
+    }
+
+    .section2 .redBtn p {
+        padding: 2.05vw 9.3vw;
+    }
+
+    .section2 .redBtn {
+        font-size: 3vw;
+        margin-left: 3.7vw;
+    }
+
+    .section3 .blockLeft {
+        padding: 35.8vw 0;
+        width: 72%;
+        margin: 0 0 6vw;
+    }
+
+    .section3 {
+        padding: 7.65vw 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section3 .content .list {
+        width: 100%;
+        background-position: 139% 0;
+        background-size: 144%;
+    }
+
+    .section3 .blockRight h1 {
+        font-size: 5.2vw;
+    }
+
+    .section3 .content .title {
+        font-size: 3.6vw;
+        width: 100%;
+    }
+
+    .section3 .blockRight {
+        padding: 0 10vw;
+        margin: 0;
+    }
+
+    .section3 .content .list-line {
+        margin: 0 0 2.5vw;
+    }
+
+    .section3 .blockRight .content {
+        width: 88%;
+    }
+
+    .section3 .content .list-line .note {
+        font-size: 3.6vw;
+    }
+
+    .section5 .content .list-line {
+        margin: 0 0 3.5vw;
+    }
+
+    .section3 .content .list-line img {
+        width: 3.1vw;
+        margin: 1vw 2vw 0 0;
+    }
+
+    .section3 .btn p {
+        font-size: 3vw;
+        padding: 2.05vw 6.37vw;
+    }
+
+    .section3 .grayBtn {
+        margin: 0 3.65vw 0 0;
+    }
+
+}

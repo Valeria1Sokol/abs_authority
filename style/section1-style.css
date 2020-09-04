@@ -1,0 +1,121 @@
+.section1 {
+    width: 100vw;
+    height: 22.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    position: relative;
+}
+
+.section1 .section1-content {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*    padding: 6vw 8.4vw 4.6vw;*/
+    padding: 4.6vw 8.4vw;
+    position: relative;
+}
+
+.section1 h1 {
+    font-size: 3vw;
+    /*    font-size: 53px;*/
+    text-align: center;
+    font-family: 'Foco Black';
+    font-weight: normal;
+}
+
+.section1 .text {
+    font-size: 1.3vw;
+    /*    font-size: 25px;*/
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section1 .redBtn {
+    font-size: 0.73vw;
+    /*    font-size: 14px;*/
+    font-family: 'foco';
+    margin-top: 1.6vw;
+    text-transform: uppercase;
+    will-change: text-shadow, transparent;
+}
+
+.section1 .redBtn:hover {
+    color: white;
+}
+
+.section1 .redBtn p {
+    /*    padding: 1.3vw 4.17vw;*/
+    padding: 0.6rem 2.25rem;
+}
+
+.triangle-up {
+    background-position: 43% 82%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/triang.png);
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: -9vw;
+    z-index: 0;
+}
+
+@media all and (max-width:800px) {
+    .section1 h1 {
+        font-size: 4vw;
+    }
+
+    .section1 .text {
+        font-size: 2vw;
+    }
+
+    .section1 br {
+        display: none;
+    }
+
+    .section1 .redBtn {
+        font-size: 1.3vw;
+        margin-top: 2.6vw;
+    }
+
+    .section1 {
+        height: 32.2vw;
+    }
+}
+
+@media all and (max-width:425px) {
+    .section1 {
+        height: auto;
+    }
+
+    .section1 h1 {
+        font-size: 8.8vw;
+    }
+
+    .section1 .text {
+        font-size: 3vw;
+    }
+
+    .section1 .redBtn {
+        font-size: 2.5vw;
+    }
+
+    .section1 .redBtn p {
+        padding: 2.3vw 4.17vw;
+    }
+
+    .section1 .section1-content {
+        width: 75%;
+        padding: 7.6vw 8.4vw;
+    }
+
+    .triangle-up {
+        width: 100%;
+        left: -12vw;
+    }
+}

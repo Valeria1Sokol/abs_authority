@@ -1,0 +1,308 @@
+@media all and (max-width:1024px) {
+
+    .nav-pills .subMenu li:nth-of-type(1) a {
+        color: #81b726 !important;
+    }
+
+    .section4 .item {
+        width: 26.3vw;
+        height: 36.3vw;
+    }
+}
+
+@media all and (max-width:800px) {
+
+
+    .section1 .redBtn {
+        font-size: 1.5vw;
+    }
+
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .owl-nav {
+        top: 45%;
+    }
+
+
+    .owl-nav {
+        width: 127%;
+        height: 4vw;
+        left: -14%;
+    }
+
+    .section4 .item {
+        width: 33.3vw;
+        height: 44.3vw;
+        padding: 5vw 7vw;
+    }
+
+    .section4 .item br {
+        display: none;
+    }
+
+    .section4 .active,
+    .section4 .owl-item {
+        height: 46.7vw;
+        justify-content: center;
+    }
+
+
+    .section4 .sale {
+        /*        right: 21%;*/
+        top: -3%;
+        width: 7vw;
+    }
+
+    .section4 .item div p {
+        font-size: 2.5vw;
+        padding: 0 0 0 1.42vw;
+        margin: 0 0 0 2vw;
+    }
+
+    .section4 .centerItem {
+        transform: scale(1);
+        z-index: 0;
+    }
+
+    .section4 .owl-nav {
+        width: 139%;
+        height: 10vw;
+        left: -19%;
+        z-index: 10;
+    }
+
+    .section4 .owl-carousel {
+        width: 69%;
+    }
+
+    .section4 .item div h1 {
+        color: #81b726
+    }
+
+    .section4 .redBtn {
+        padding: 1.3vw 9vw;
+        font-size: 2.7vw;
+    }
+
+    .section5 h1 {
+        font-size: 4.4vw;
+    }
+
+    .section5 .text {
+        width: 34%;
+    }
+
+    .section5 p {
+        font-size: 2.2vw;
+        width: 81%;
+    }
+
+    .section5 .redBtn p {
+        font-size: 1.6vw;
+    }
+
+    .section5 {
+        background-position: -5% 50%;
+    }
+}
+
+@media all and (max-width:425px) {
+    .section1 {
+        height: auto;
+    }
+
+    .section1 h1 {
+        font-size: 8.8vw;
+        line-height: 8.3vw;
+    }
+
+    .section1 .redBtn p {
+        padding: 2.3vw 7.4vw;
+    }
+
+    .section1 .text {
+        font-size: 3vw;
+    }
+
+    .section1 .redBtn {
+        font-size: 2.5vw;
+    }
+
+    .section1 .section1-content {
+        width: 75%;
+        padding: 6vw 7.6vw 4.6vw;
+    }
+
+    .triangle-up {
+        width: 100%;
+        left: -12vw;
+    }
+
+    .section2 .blockRight,
+    .section3 .blockRight {
+        width: 100%;
+        padding: 2.7vw 8.9vw;
+    }
+
+    .section2 .blockLeft {
+        align-items: center;
+        justify-content: center;
+        width: 72%;
+    }
+
+    .section2 .blockRight h1 {
+        font-size: 6.65vw;
+        color: #81b726;
+        font-family: 'Foco Black';
+        text-align: left;
+        margin: 0 0 1.41vw;
+    }
+
+    .section2 {
+        padding: 7.65vw 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2 .content .list-line .note {
+        font-size: 4vw;
+    }
+
+    .section2 .content .list-line {
+        margin: 0 0 3.5vw;
+    }
+
+    .section2 .content .list-line img {
+        width: 4.1vw;
+        margin: 1vw 2vw 0 0;
+    }
+
+    .section2 .content .list {
+        padding: 3.4vw 0 7.1vw;
+    }
+
+    .section4 {
+        padding: 0;
+    }
+
+    .section4 h1 {
+        font-size: 8.23vw;
+    }
+
+    .section4 .item {
+        width: 59.3vw;
+        height: 90vw;
+        padding: 5vw 7vw;
+    }
+
+    .section4 .active,
+    .section4 .owl-item {
+        height: 100vw;
+    }
+
+    .section4 .item h2 {
+        font-size: 7.18vw;
+    }
+
+    .section4 .item span {
+        font-size: 2.2vw;
+    }
+
+    .section4 .item .text {
+        font-size: 2.9vw;
+    }
+
+    .section4 .item div h1 {
+        font-size: 12.8vw;
+    }
+
+    .section4 ul {
+        padding: 0vw 1vw 0 4vw;
+    }
+
+    .section4 .center .item .redBtn {
+        padding: 2.3vw 14vw;
+        font-size: 2.7vw;
+    }
+
+    .owl-nav {
+        top: 42%;
+    }
+
+    .section4 .item div h1 span {
+        font-size: 9vw;
+        padding-top: 2.2vw;
+    }
+
+    .section5 h1 {
+        font-size: 5.4vw;
+    }
+
+    .section5 p {
+        font-size: 3.2vw;
+        width: 95%;
+    }
+
+    .section5 .redBtn p {
+        font-size: 2.6vw;
+    }
+
+    .section5 .text {
+        width: 42%;
+    }
+
+    .section5 .redBtn {
+        padding: 1.85vw 10vw;
+    }
+
+    .section5 .img img {
+        width: 100%;
+    }
+
+    .section5 .img {
+        width: 56%;
+    }
+
+    .section5 {
+        background-position: -120% 50%;
+        background-size: 107% 100%;
+    }
+
+    .section6 {
+        height: auto;
+    }
+
+    .section6 .img {
+        display: none;
+    }
+
+    .section6 .faq {
+        width: 100%;
+        padding: 4.6vw 7.7vw;
+    }
+
+    .section6 .faq h1 {
+        font-size: 7.3vw;
+    }
+
+    .section6 .card-header {
+        font-size: 3.57vw;
+        padding: 0.3em 0;
+        line-height: 4.8vw;
+    }
+
+    .section6 p {
+        font-size: 2.8vw;
+        padding: 2vw 0 3.3vw;
+    }
+
+    .section4 .sale {
+        width: 11vw;
+    }
+}
