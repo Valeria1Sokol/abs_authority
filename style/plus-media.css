@@ -666,10 +666,14 @@
     }
 
     .section7 .owl-nav {
-        width: 166%;
+        width: 165%;
         height: 10vw;
-        left: -34%;
+        left: -33%;
         z-index: 10;
+    }
+
+    .section7 .owl-nav {
+        top: 39%;
     }
 
     .section7 .owl-carousel {
