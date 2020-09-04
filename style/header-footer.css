@@ -473,7 +473,7 @@ footer .footer-bottom p {
     #menuToggle input:checked ~ #menu
     {
         right: 0%;
-        transition: all .7s;
+        transition: right .7s;
     }
  #menuToggle input:not(:checked)  ~ #menu
     {
@@ -602,6 +602,10 @@ footer .footer-bottom p {
     #menuToggle input {
         width: 40px;
         height: 40px;
+    }
+    #menu li
+    {
+        padding: 20px 5vw;
     }
 
 
