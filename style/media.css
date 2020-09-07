@@ -6,6 +6,10 @@
     .nav-pills li:nth-of-type(1) a {
         color: #81b726;
     }
+
+    .section3 .benefits p {
+        font-size: 0.9vw;
+    }
 }
 
 

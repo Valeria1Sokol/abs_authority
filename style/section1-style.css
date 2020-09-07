@@ -1,10 +1,15 @@
+h1,
+h4 {
+    font-size: 2.25rem;
+}
+
 .section1 {
     width: 100vw;
-    height: 22.2vw;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     color: white;
     position: relative;
 }
@@ -15,29 +20,43 @@
     flex-direction: column;
     align-items: center;
     /*    padding: 6vw 8.4vw 4.6vw;*/
-    padding: 4.6vw 8.4vw;
+    /*        padding: 2vw 0;*/
     position: relative;
 }
 
+.section1 .cont {
+    max-width: 1140px;
+    height: 100%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 .section1 h1 {
-    font-size: 3vw;
-    /*    font-size: 53px;*/
+    /*    font-size: 3vw;*/
+    font-size: 53px;
+    margin-bottom: 25px;
     text-align: center;
     font-family: 'Foco Black';
     font-weight: normal;
 }
 
 .section1 .text {
-    font-size: 1.3vw;
-    /*    font-size: 25px;*/
+    /*    font-size: 1.3vw;*/
+    font-size: 25px;
     font-family: 'Poppins';
     text-transform: uppercase;
     text-align: center;
 }
 
 .section1 .redBtn {
-    font-size: 0.73vw;
-    /*    font-size: 14px;*/
+    /*    font-size: 0.73vw;*/
+    font-size: 14px;
     font-family: 'foco';
     margin-top: 1.6vw;
     text-transform: uppercase;
@@ -50,7 +69,9 @@
 
 .section1 .redBtn p {
     /*    padding: 1.3vw 4.17vw;*/
-    padding: 0.6rem 2.25rem;
+    /*    padding: 0.6rem 2.25rem;*/
+    padding: 0.8vw 4vw !important;
+    font-size: 1.2vw !important;
 }
 
 .triangle-up {
@@ -59,9 +80,11 @@
     background-size: cover;
     background-image: url(../img/triang.png);
     position: absolute;
-    width: 75%;
+    width: 84%;
     height: 100%;
-    left: -9vw;
+    /*    left: -9vw;*/
+
+    left: -13%;
     z-index: 0;
 }
 

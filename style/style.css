@@ -20,7 +20,7 @@
 }
 
 .section2 h1 {
-    font-size: 2.6vw;
+    /*    font-size: 2.6vw;*/
     color: #81b726;
     font-family: 'Foco Black';
 }
@@ -85,7 +85,8 @@
 
 .section2 .box h3 {
     color: #81b726;
-    font-size: 2.3vw;
+    /*    font-size: 2.3vw;*/
+    font-size: 2.25rem;
     font-family: 'Foco Black';
     transition: color .5s;
 }
@@ -99,6 +100,7 @@
     height: 4.5vw;
     color: #333333;
     font-size: 0.73vw;
+    /*    font-size: .875rem;*/
     font-family: 'Poppins';
     text-align: center;
     text-transform: uppercase;
@@ -124,7 +126,8 @@
 
 .section2 .btn p {
     padding: 0.73vw 2.44vw;
-    font-size: 0.73vw;
+    /*    font-size: 0.73vw;*/
+    font-size: 14px;
 }
 
 .section2 .grayBtn {
@@ -159,13 +162,14 @@
 
 .section2 .text-content h4 {
     color: #81b726;
-    font-size: 2vw;
+    /*    font-size: 2vw;*/
     font-family: 'Foco Black';
 }
 
 .section2 .text-content .text {
     color: #72787a;
-    font-size: 1.1vw;
+/*    font-size: 1.1vw;*/
+    font-size: 1rem;
     text-align: left;
     margin-top: 2.1vw;
 }
@@ -179,7 +183,7 @@
 }
 
 .section2 .block2 .img img {
-    width: 91%;
+    width: 80%;
 }
 
 .section3 {
@@ -189,11 +193,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3vw 20vw 0;
+    padding: 3vw 14vw 0;
 }
 
 .section3 h1 {
-    font-size: 2.6vw;
+    /*    font-size: 2.6vw;*/
     color: #81b726;
     font-family: 'Foco Black';
 }
@@ -208,7 +212,7 @@
 }
 
 .section3 .benefits {
-    width: 22%;
+    width: 24%;
     height: 9vw;
     display: flex;
     flex-direction: column;
@@ -218,7 +222,8 @@
 }
 
 .section3 .benefits p {
-    font-size: 0.9vw;
+/*    font-size: 0.9vw;*/
+    font-size: 1.0625rem;
     color: #81b726;
     text-align: center;
 }
@@ -284,7 +289,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0 6.4vw 0 0;
-/*    margin: 0 0 0 -2vw;*/
+    /*    margin: 0 0 0 -2vw;*/
 }
 
 .section5 .blockRight h6 {
@@ -382,7 +387,7 @@
 }
 
 .section6 h1 {
-    font-size: 2.6vw;
+    /*    font-size: 2.6vw;*/
     color: #81b726;
     font-family: 'Foco Black';
     text-align: center;
@@ -408,14 +413,16 @@
 }
 
 .section6 .item .name {
-    font-size: 0.9vw;
+/*    font-size: 0.9vw;*/
+    font-size: 16px;
     color: #303030;
     font-family: 'Poppins', sans-serif;
     text-align: left;
 }
 
 .section6 .item .pos {
-    font-size: 0.8vw;
+/*    font-size: 0.8vw;*/
+    font-size: 14px;
     color: #666666;
     font-family: 'Poppins', sans-serif;
     text-align: left;

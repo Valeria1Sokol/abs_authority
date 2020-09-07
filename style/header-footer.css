@@ -149,8 +149,8 @@ header .logo img {
 }
 
 .btn {
-    -webkit-transform: skewX(-18deg);
-    transform: skewX(-18deg);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
     cursor: pointer;
 }
 
@@ -159,8 +159,8 @@ header .logo img {
 }
 
 .btn p {
-    -webkit-transform: skewX(18deg);
-    transform: skewX(18deg);
+    -webkit-transform: skewX(25deg);
+    transform: skewX(25deg);
 }
 
 .header-menu .register {
