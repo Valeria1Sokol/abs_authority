@@ -22,7 +22,7 @@
 .section2 .block2 {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background-position: 90% 17%;
     background-repeat: no-repeat;
@@ -35,19 +35,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 3vw;
     width: 44%;
 }
 
 .section2 .text-content h4 {
     color: #81b726;
-    font-size: 2.6vw;
     font-family: 'Foco Black';
 }
 
 .section2 .text-content .text {
     color: #72787a;
-    font-size: 1.1vw;
+    font-size: 1rem;
     text-align: left;
     margin-top: 2.1vw;
 }
@@ -79,8 +77,8 @@
 }
 
 .section3 h1 {
-    font-size: 1.7vw;
     color: #81b726;
+    font-size: 2vw;
     font-family: 'Foco Black';
     text-align: center;
     width: 87%;
@@ -286,11 +284,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4vw 22vw;
+    padding: 4vw 16vw;
 }
 
 .section5 h1 {
-    font-size: 2.6vw;
     color: #81b726;
     font-family: 'Foco Black';
 }
@@ -314,7 +311,7 @@
 }
 
 .section5 .benefits p {
-    font-size: 0.9vw;
+    font-size: 1rem;
     color: #81b726;
     text-align: center;
 }
@@ -341,7 +338,6 @@
 }
 
 .section6 h1 {
-    font-size: 2.6vw;
     color: #81b726;
     font-family: 'Foco Black';
     text-align: center;
@@ -367,14 +363,14 @@
 }
 
 .section6 .item .name {
-    font-size: 0.9vw;
+    font-size: 16px;
     color: #303030;
     font-family: 'Poppins', sans-serif;
     text-align: left;
 }
 
 .section6 .item .pos {
-    font-size: 0.8vw;
+    font-size: 14px;
     color: #666666;
     font-family: 'Poppins', sans-serif;
     text-align: left;
@@ -468,12 +464,11 @@
 
 .section7 h4 {
     color: #81b726;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
 }
 
 .section7 h1 {
     color: #81b726;
-    font-size: 2.6vw;
     font-family: 'Foco Black';
 }
 
@@ -482,8 +477,8 @@
 }
 
 .section7 .item {
-    width: 22.3vw;
-    height: 25.3vw;
+    width: 20.3vw;
+    height: 22.3vw;
     border: 1px solid #d5d8e0;
     border-radius: 0.53vw;
     display: flex;
@@ -538,7 +533,7 @@
 
 .section7 .item h2 {
     color: #81b726;
-    font-size: 2.6vw;
+    font-size: 2.25rem;
     font-family: 'Foco Black';
     text-transform: uppercase;
     text-align: center;
@@ -546,11 +541,11 @@
 
 .section7 .item .text {
     color: black;
-    font-size: 1vw;
+    font-size: 1rem;
     text-align: center;
     font-family: 'Montserrat';
     margin: 1vw 0 0;
-    height: 6vw;
+    height: 4vw;
 }
 
 .section7 .item div {
@@ -561,7 +556,7 @@
 }
 
 .section7 .item div h1 {
-    font-size: 4.5vw;
+    font-size: 4rem;
     color: black;
     text-transform: uppercase;
     display: flex;
@@ -570,7 +565,7 @@
 }
 
 .section7 .item div span {
-    font-size: 1.6vw;
+    font-size: 1.7rem;
     color: black;
     text-transform: uppercase;
     padding-top: 1.2vw;
@@ -578,7 +573,7 @@
 
 .section7 .item div p {
     color: #b6b6b6;
-    font-size: 1vw;
+    font-size: 1rem;
     font-family: 'MontserratBold';
     text-align: left;
     border-left: 1px solid #b6b6b6;
@@ -588,7 +583,7 @@
 
 .section7 .redBtn {
     padding: 0.73vw 5vw;
-    font-size: 0.73vw;
+    font-size: 14px;
     color: white;
     transition: font-size .4s;
 }
@@ -648,7 +643,7 @@
 }
 
 .section8 .text {
-    width: 27%;
+    width: 24%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -657,7 +652,6 @@
 
 .section8 h1 {
     color: white;
-    font-size: 2.6vw;
     font-family: 'Foco Black';
     text-transform: uppercase;
     text-align: center;
@@ -665,7 +659,7 @@
 
 .section8 p {
     color: white;
-    font-size: 1.1vw;
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -688,7 +682,7 @@
 
 .section8 .redBtn p {
     margin: 0;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
 }
 
 footer .footer-top .menu div:first-of-type a:nth-of-type(3) {

@@ -1,3 +1,25 @@
+@media all and (max-width:1440px) {
+    .section7 .item {
+        width: 23.3vw;
+        height: 28.3vw;
+    }
+
+    .section8 p {
+        width: 100%;
+    }
+
+    .section2 .text-content {
+        padding-left: 2vw;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .section7 .item {
+        width: 26.3vw;
+        height: 30.3vw;
+    }
+}
+
 @media all and (max-width:1024px) {
     .section2 .block2 .img {
         width: 54%;
@@ -5,6 +27,27 @@
 
     .nav-pills li:nth-of-type(3) a {
         color: #81b726;
+    }
+
+    .section5 {
+        padding: 3vw 4vw;
+    }
+
+    .section6 .item {
+        width: 24.2vw;
+    }
+
+    .section7 .item {
+        width: 34.3vw;
+        height: 40.3vw;
+    }
+
+    .section7 .owl-carousel {
+        width: 98%;
+    }
+
+    .section8 .text {
+        width: 34%;
     }
 }
 

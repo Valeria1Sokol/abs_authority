@@ -18,38 +18,36 @@
 }
 
 .section2 .box {
-    width: 80%;
-    height: 39vw;
+    width: 77%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     box-shadow: 19px 10px 57px rgba(0, 0, 0, 0.13);
+    background-position: 34% 100%;
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-image: url(../img/step1-bg.png);
 }
 
 .section2 .step1Box {
-    background-color: white;
-    width: 63%;
+/*    background-color: white;*/
+    width: 55%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
-    background-size: 52%;
-    background-image: url(../img/step1-bg.png);
-    padding: 3.34vw 4.43vw 3.86vw;
+    padding: 3.34vw 3.43vw 3.86vw;
 }
 
 .section2 .step1Box h1 {
     color: #81b726;
-    font-size: 2.6vw;
     font-family: 'Foco Black';
 }
 
 .section2 .step1Box h2 {
     color: #81b726;
-    font-size: 2vw;
+    font-size: 1.8rem;
     font-family: 'Foco Black';
 }
 
@@ -74,7 +72,7 @@
 
 
 .section2 .category p {
-    font-size: 1vw;
+    font-size: 1rem;
     color: #333333;
     text-align: center;
     text-transform: uppercase;
@@ -92,8 +90,8 @@
 }
 
 .section2 .grayBtn {
-    padding: 0.83vw 3.4vw;
-    font-size: 0.8vw;
+    padding: 0.73vw 2.44vw;
+    font-size: 14px;
     margin: 0.94vw auto 0;
 }
 
@@ -103,24 +101,23 @@
 
 .section2 .step2Box {
     background-color: #87be2d;
-    width: 37%;
+    width: 45%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 3.34vw 3.75vw 3.86vw 3.5vw;
+    padding: 3.34vw 3vw 3.86vw;
 }
 
 .section2 .step2Box h1 {
     color: white;
-    font-size: 2.6vw;
     font-family: 'Foco Black';
 }
 
 .section2 .step2Box h2 {
     color: white;
-    font-size: 2vw;
+    font-size: 1.8rem;
     font-family: 'Foco Black';
 }
 
@@ -143,7 +140,7 @@
 
 .section2 form div label {
     color: #474746;
-    font-size: 0.73vw;
+    font-size: 14px;
     margin: 0 0 0.7vw;
     letter-spacing: 0.12vw;
     text-transform: uppercase;
@@ -209,7 +206,6 @@
 }
 
 .section5 h1 {
-    font-size: 2.6vw;
     color: #81b726;
     font-family: 'Foco Black';
 }
@@ -224,7 +220,7 @@
 }
 
 .section5 .benefits {
-    width: 26%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,7 +228,7 @@
 }
 
 .section5 .benefits p {
-    font-size: 1vw;
+    font-size: 1rem;
     color: #81b726;
     text-align: center;
 }
@@ -264,7 +260,6 @@
 }
 
 .sectionSlider h1 {
-    font-size: 2.6vw;
     color: #81b726;
     font-family: 'Foco Black';
     text-align: center;
@@ -290,14 +285,14 @@
 }
 
 .sectionSlider .item .name {
-    font-size: 0.9vw;
+    font-size: 16px;
     color: #303030;
     font-family: 'Poppins', sans-serif;
     text-align: left;
 }
 
 .sectionSlider .item .pos {
-    font-size: 0.8vw;
+    font-size: 14px;
     color: #666666;
     font-family: 'Poppins', sans-serif;
     text-align: left;
